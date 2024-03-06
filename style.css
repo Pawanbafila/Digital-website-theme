@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'firstfont'; /* Choose a name for your font family */
+    src: url('font/KFOlCnqEu92Fr1MmSU5fBBc4.ttf') format('truetype');
+    /* Add other font properties or styles if needed */
+  }
+@font-face {
+    font-family: 'secfont'; /* Choose a name for your font family */
+    src: url('font/KFOlCnqEu92Fr1MmSU5fBBc4.ttf') format('truetype');
+    /* Add other font properties or styles if needed */
+  }
+  
+  body {
+    font-family: 'firstfont', sans-serif;
+  }
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body {
+height: 100%;
+width: 100%;
+}
+
+/******************************************************************
+* Bottom fixed icons 
+*******************************************************************/
+.fixedsocial{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+   display: none;
+}
+.fixedsocial .right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+background-color: rgb(0, 255, 81);
+}
+.fixedsocial .left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+/******************************************************************
+* Here our top header start 
+*******************************************************************/
+
+
+.top-header-left i{
+font-size: 2vw;
+color: rgb(255, 255, 255);
+margin-left: 20px;
+
+
+}
+
+.top-header{
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 40px;
+    border-bottom: rgb(255, 0, 0) solid 1px;
+   
+}
+.top-header-right a{
+   padding:  0 10px;
+   margin: 10px 0;
+}
+.top-header-right a::before{
+    content: '';
+    width: 1.5px;
+    background-color: rgb(41, 247, 0);
+    height: 21px;
+    position: absolute;
+    right: 0;
+
+    
+}
+.top-header-right img{
+    position: absolute;
+    height: 40px;
+    top: 0;
+    
+}
+.top-header-right {
+    
+    margin: 0 0;
+
+
+}
+
+
+
+
+
+/******************************************************************
+* Here our second header
+*******************************************************************/
+.navbar-collapse ul li a:hover{
+    color: rgb(255, 162, 0);
+    background-color: antiquewhite;
+   
+}
+
+.navbar-collapse ul li a{
+font-weight: bold;
+}
+
+.secheader{
+    margin: 40px 0 0 0;
+}
+
+
+
+
+
+
+/******************************************************************
+* Here our thired header work start  
+*******************************************************************/
+
+.secheader{
+    width: 100%;
+    height: 60px;
+    border-bottom: rgb(255, 0, 0) solid 1px;
+}
+.secheader .secheader-wraper img{
+    height: 60px;
+}
+
+.thirdheader{
+    height: 50px;
+}
+.thirdheader .thirdheader-wraper ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder ;
+    
+}
+
+.thirdheader .thirdheader-wraper ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 10px;
+   
+}
+.thirdheader .thirdheader-wraper ul li:hover{
+
+color: rgb(255, 145, 0);
+font-size: 110%;
+transition: all 1s ease 0s ;
+background-color:antiquewhite ;
+
+}
+
+
+
+
+
+
+
+
+
+/******************************************************************
+* Here our Banner Part start 
+*******************************************************************/
+.carousel-inner{
+height:30vw;
+
+}
+.carousel-item img{
+    object-fit: cover;
+   
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+/******************************************************************
+* Here our footer work satrt  
+*******************************************************************/

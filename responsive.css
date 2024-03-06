@@ -1,0 +1,36 @@
+
+@media (max-width:991px) {
+    .top-header{
+        font-size: 12px;
+    }
+    .top-header img{
+       display: none;
+    }
+    .thirdheader{
+        display: none;
+    }
+.top-header-left i{
+font-size: 3vw;
+
+}
+.fixedsocial{
+    display: inline-block;
+    
+}
+    
+}
+
+@media (max-width:768px) {
+.top-header a p{
+   display: none;
+    
+}
+.top-header-right a::before{
+display: none;
+}
+.top-header img{
+    display: block;
+ }
+}
+
+
