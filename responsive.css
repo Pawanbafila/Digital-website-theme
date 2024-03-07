@@ -31,6 +31,46 @@ display: none;
 .top-header img{
     display: block;
  }
+ .third-nav-bgc{
+    background-color: rgb(255, 196, 85);
+    padding: 10px;
+    
+ }
+ .third-nav-bgc ul li a{
+    color: white;
+    border: solid white;
+    padding: 10px;
+
+ }
+ .third-nav-bgc ul li ul li a{
+    color:rgb(255, 196, 85);
+ }
+
+
 }
 
 
+@media (max-width:575px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-img{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-icons{
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+}

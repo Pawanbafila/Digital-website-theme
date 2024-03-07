@@ -42,8 +42,7 @@ width: 100%;
     height: 100%;
     color: white;
     font-weight: bold;
-    text-align: center;
-    
+    text-align: center; 
 background-color: rgb(0, 255, 81);
 }
 .fixedsocial .left{
@@ -130,9 +129,6 @@ margin-left: 20px;
 font-weight: bold;
 }
 
-.secheader{
-    margin: 40px 0 0 0;
-}
 
 
 
@@ -142,8 +138,13 @@ font-weight: bold;
 /******************************************************************
 * Here our thired header work start  
 *******************************************************************/
-
 .secheader{
+    margin: 40px 0 40px 0;
+    z-index: 1;
+    position: relative;
+}
+
+.secheader, nav{
     width: 100%;
     height: 60px;
     border-bottom: rgb(255, 0, 0) solid 1px;
@@ -191,6 +192,8 @@ background-color:antiquewhite ;
 *******************************************************************/
 .carousel-inner{
 height:30vw;
+margin: 0 0;
+padding: 0 0;
 
 }
 .carousel-item img{
@@ -200,6 +203,39 @@ height:30vw;
     width: 100%;
 
 }
+#banner{
+    position: relative;
+    z-index: -1;
+}
+
+
+
+/******************************************************************
+* Here OUr Main work start  
+*******************************************************************/
+
+
+
+.midbanner{
+    width: 100%;
+    height: 200px;
+  background-image: url(images/abstract-background-with-low-poly-design.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.midbanner .mainbtn{
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+}
+.divbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
